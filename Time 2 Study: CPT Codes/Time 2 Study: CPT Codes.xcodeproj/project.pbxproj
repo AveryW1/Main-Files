@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58BA1456211554EA009FB614 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58DB00F02114BD60007443DF /* Info.plist */; };
+		58BA14582115550D009FB614 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58BA14572115550D009FB614 /* Default-568h@2x.png */; };
+		58DB00E52114BD5F007443DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB00E42114BD5F007443DF /* AppDelegate.swift */; };
+		58DB00E72114BD5F007443DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB00E62114BD5F007443DF /* ViewController.swift */; };
+		58DB00EA2114BD5F007443DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DB00E82114BD5F007443DF /* Main.storyboard */; };
+		58DB00EC2114BD60007443DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DB00EB2114BD60007443DF /* Assets.xcassets */; };
+		58DB00EF2114BD60007443DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DB00ED2114BD60007443DF /* LaunchScreen.storyboard */; };
+		58DB00FA2114C057007443DF /* CPTQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB00F92114C057007443DF /* CPTQuestionBank.swift */; };
+		58DB00FC2114C06B007443DF /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB00FB2114C06B007443DF /* Questions.swift */; };
+		58DB01022114EAE9007443DF /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58DB00FF2114EAE8007443DF /* ProgressHUD.bundle */; };
+		58DB01032114EAE9007443DF /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DB01002114EAE8007443DF /* ProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58BA14572115550D009FB614 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		58DB00E12114BD5F007443DF /* Time 2 Study: CPT Codes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time 2 Study: CPT Codes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DB00E42114BD5F007443DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58DB00E62114BD5F007443DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58DB00E92114BD5F007443DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58DB00EB2114BD60007443DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58DB00EE2114BD60007443DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58DB00F02114BD60007443DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DB00F92114C057007443DF /* CPTQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPTQuestionBank.swift; sourceTree = "<group>"; };
+		58DB00FB2114C06B007443DF /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		58DB00FE2114EAE8007443DF /* Time 2 Study: CPT Codes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Time 2 Study: CPT Codes-Bridging-Header.h"; sourceTree = "<group>"; };
+		58DB00FF2114EAE8007443DF /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		58DB01002114EAE8007443DF /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		58DB01012114EAE9007443DF /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58DB00DE2114BD5F007443DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58DB00D82114BD5F007443DF = {
+			isa = PBXGroup;
+			children = (
+				58BA14572115550D009FB614 /* Default-568h@2x.png */,
+				58DB00E32114BD5F007443DF /* Time 2 Study: CPT Codes */,
+				58DB00E22114BD5F007443DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58DB00E22114BD5F007443DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DB00E12114BD5F007443DF /* Time 2 Study: CPT Codes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58DB00E32114BD5F007443DF /* Time 2 Study: CPT Codes */ = {
+			isa = PBXGroup;
+			children = (
+				58DB00F82114BEF8007443DF /* Controller */,
+				58DB00F72114BEEB007443DF /* View */,
+				58DB00F62114BEE0007443DF /* Model */,
+				58DB00FD2114E91D007443DF /* Supporting Files */,
+			);
+			path = "Time 2 Study: CPT Codes";
+			sourceTree = "<group>";
+		};
+		58DB00F62114BEE0007443DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58DB00F92114C057007443DF /* CPTQuestionBank.swift */,
+				58DB00FB2114C06B007443DF /* Questions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58DB00F72114BEEB007443DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58DB00E82114BD5F007443DF /* Main.storyboard */,
+				58DB00EB2114BD60007443DF /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58DB00F82114BEF8007443DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58DB00E42114BD5F007443DF /* AppDelegate.swift */,
+				58DB00E62114BD5F007443DF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58DB00FD2114E91D007443DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58DB00ED2114BD60007443DF /* LaunchScreen.storyboard */,
+				58DB00F02114BD60007443DF /* Info.plist */,
+				58DB00FF2114EAE8007443DF /* ProgressHUD.bundle */,
+				58DB01012114EAE9007443DF /* ProgressHUD.h */,
+				58DB01002114EAE8007443DF /* ProgressHUD.m */,
+				58DB00FE2114EAE8007443DF /* Time 2 Study: CPT Codes-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58DB00E02114BD5F007443DF /* Time 2 Study: CPT Codes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DB00F32114BD60007443DF /* Build configuration list for PBXNativeTarget "Time 2 Study: CPT Codes" */;
+			buildPhases = (
+				58DB00DD2114BD5F007443DF /* Sources */,
+				58DB00DE2114BD5F007443DF /* Frameworks */,
+				58DB00DF2114BD5F007443DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time 2 Study: CPT Codes";
+			productName = "Time 2 Study: CPT Codes";
+			productReference = 58DB00E12114BD5F007443DF /* Time 2 Study: CPT Codes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58DB00D92114BD5F007443DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "General Cloud Applications LLC";
+				TargetAttributes = {
+					58DB00E02114BD5F007443DF = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 58DB00DC2114BD5F007443DF /* Build configuration list for PBXProject "Time 2 Study: CPT Codes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58DB00D82114BD5F007443DF;
+			productRefGroup = 58DB00E22114BD5F007443DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58DB00E02114BD5F007443DF /* Time 2 Study: CPT Codes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58DB00DF2114BD5F007443DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DB01022114EAE9007443DF /* ProgressHUD.bundle in Resources */,
+				58DB00EF2114BD60007443DF /* LaunchScreen.storyboard in Resources */,
+				58DB00EC2114BD60007443DF /* Assets.xcassets in Resources */,
+				58BA1456211554EA009FB614 /* Info.plist in Resources */,
+				58DB00EA2114BD5F007443DF /* Main.storyboard in Resources */,
+				58BA14582115550D009FB614 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58DB00DD2114BD5F007443DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DB00FA2114C057007443DF /* CPTQuestionBank.swift in Sources */,
+				58DB00FC2114C06B007443DF /* Questions.swift in Sources */,
+				58DB01032114EAE9007443DF /* ProgressHUD.m in Sources */,
+				58DB00E72114BD5F007443DF /* ViewController.swift in Sources */,
+				58DB00E52114BD5F007443DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58DB00E82114BD5F007443DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58DB00E92114BD5F007443DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58DB00ED2114BD60007443DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58DB00EE2114BD60007443DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58DB00F12114BD60007443DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58DB00F22114BD60007443DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58DB00F42114BD60007443DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D79K6U373;
+				INFOPLIST_FILE = "$(SRCROOT)/Time 2 Study: CPT Codes/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GeneralCloudApplicationsLLC.Time-2-Study--CPT-Codes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Time 2 Study: CPT Codes/Supporting Files/Time 2 Study: CPT Codes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58DB00F52114BD60007443DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D79K6U373;
+				INFOPLIST_FILE = "$(SRCROOT)/Time 2 Study: CPT Codes/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GeneralCloudApplicationsLLC.Time-2-Study--CPT-Codes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Time 2 Study: CPT Codes/Supporting Files/Time 2 Study: CPT Codes-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58DB00DC2114BD5F007443DF /* Build configuration list for PBXProject "Time 2 Study: CPT Codes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DB00F12114BD60007443DF /* Debug */,
+				58DB00F22114BD60007443DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DB00F32114BD60007443DF /* Build configuration list for PBXNativeTarget "Time 2 Study: CPT Codes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DB00F42114BD60007443DF /* Debug */,
+				58DB00F52114BD60007443DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58DB00D92114BD5F007443DF /* Project object */;
+}
