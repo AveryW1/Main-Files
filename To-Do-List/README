@@ -1,1 +1,8 @@
 This is a To-Do List written in C++
+
+
+Notes:
+List item should have:
+- Number (position)
+- Content (sentence)
+- Status (Complete or not)
